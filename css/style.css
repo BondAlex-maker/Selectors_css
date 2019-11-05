@@ -28,10 +28,42 @@ th {
     background-color: #DBDBDB;
 }
 
-.first td:nth-child(2n){
+.first td:nth-child(2n),
+.second td:nth-child(2n+1){
     background-color: #E7E7E7;
 }
 
-.second td:nth-child(2n+1){
-    background-color: #E7E7E7;
+.th th:first-child{
+    background-color: blue;
+    opacity: 0.6;
+
+}
+
+.th th:last-child{
+    background-color: blue;
+}
+
+.th th:nth-child(2){
+background-color: blue;
+    opacity: 0.7;
+
+}
+
+.th th:nth-child(3){
+    background-color: blue;
+    opacity: 0.8;
+}
+
+.th th:nth-child(4){
+    background-color: blue;
+    opacity: 0.9;
+}
+
+th {
+    color: white;
+
+}
+
+.width{
+    width: 300px;
 }
